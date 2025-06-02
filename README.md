@@ -7,7 +7,7 @@ TaskTracker is a backend platform designed to help teams manage their tasks, tra
 Backend
 
 ## Deployed App
-Backend: [https://your-backend-deploy-link.com](#)  
+Backend: [https://tasktracker-productivity.vercel.app/](#)  
 Database: MongoDB Atlas
 
 ## Directory Structure
@@ -44,7 +44,7 @@ tasktracker-productivity/
 ## Installation & Getting Started
 
 ```bash
-git clone https://github.com/your-username/tasktracker-productivity.git
+git clone https://github.com/ankursoniblogger/tasktracker-productivity.git
 cd tasktracker-productivity
 npm install
 npm start
