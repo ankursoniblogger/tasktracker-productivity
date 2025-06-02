@@ -17,6 +17,16 @@ app.use(cors());
 app.use(express.json());
 
 
+app.get("/", (req, res) => {
+  res.send(`
+    <h1>🚀 TaskTracker Productivity API</h1>
+    <p>This is the backend API for the TaskTracker Productivity app.</p>
+    <p>Try accessing the API endpoints like <code>/users</code>, <code>/tasks</code>, etc.</p>
+    <p>Built with ❤️ using Express.js and MongoDB</p>
+  `);
+});
+
+
 // Routes
 app.use("/api/users", userRoutes);
 
